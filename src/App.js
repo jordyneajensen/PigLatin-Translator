@@ -126,8 +126,8 @@ class App extends Component {
           <button onClick={this.setUpPreventDefault}>Submit</button>
           <button onClick={this.restartGame}>Clear</button>
         </div>
-        <p>{this.state.phraseTranslated}</p>
-        <footer>Coded by Darwin & Neco ~</footer>
+        <p className='translatedPhrase'>{this.state.phraseTranslated}</p>
+        <footer>Coded by Jordyn Jensen ~</footer>
       </>
     )
   }

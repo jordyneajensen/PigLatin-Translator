@@ -2,19 +2,32 @@ body {
   margin: 1rem;
   font-family: 'Josefin Sans', sans-serif;
   text-align: center;
+  background: linear-gradient(to bottom, #f69ac5, #ef7a7a); /* Add your desired gradient colors here */
 }
 
 h1 {
   font-size: 4rem;
 }
 
+
 button {
-  margin: 4rem;
-  border-radius: 0.9rem;
-  padding: 1rem;
-  border-color: aqua;
+  margin-top: 0.5rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  padding: 1rem 3.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #ff6f77; /* Button background color */
+  color: #fff; /* Button text color */
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
+button:hover {
+  background-color: #ff4d58; /* Button hover background color */
+}
 footer {
   padding: 2rem;
 }
@@ -24,11 +37,13 @@ footer {
 }
 
 .userInput {
-  border-radius: .5rem;
-  font-size: 1rem;
-  height: 5rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  font-size: 1.2rem;
   width: 20rem;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .inputArea {
@@ -38,14 +53,24 @@ footer {
   padding: 1rem;
 }
 
+.translatedPhrase {
+  background-color: beige;
+  font-size: 2rem;
+  height: 2rem;
+  width: 97%;
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
 @media only screen and (max-width: 650px) {
   h1 {
     font-size: 2rem;
   }
   .userInput{
     font-size: 1rem;
-    height: 5rem;
-    width: 90%;
+    height: 4rem;
+    width: auto;
     padding: 1rem;
     text-align: center;
   }
