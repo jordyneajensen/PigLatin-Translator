@@ -127,7 +127,7 @@ class App extends Component {
           <button onClick={this.restartGame}>Clear</button>
         </div>
         <p className='translatedPhrase'>{this.state.phraseTranslated}</p>
-        <footer>Coded by Jordyn Jensen ~</footer>
+        <footer>Coded by Jordyn Jensen </footer>
       </>
     )
   }
